@@ -1,0 +1,31 @@
+.footerWrapper{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 2rem;
+}
+.footerWrapper .left{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.footerWrapper .left h2 sub{
+    font-size: small;
+}
+.footerWrapper .right ul{
+    display: flex;
+    align-items: center;
+}
+.footerWrapper .right ul li{
+    margin-right: 10px;
+}
+.footerWrapper .right ul li.language{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.footerWrapper .right ul li.currency{
+    display: flex;
+    align-items: center;
+}

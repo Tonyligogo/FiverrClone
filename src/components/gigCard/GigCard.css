@@ -1,0 +1,59 @@
+.gigs{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    row-gap: 30px;
+}
+.gigs .project.gigCard{
+    margin: 0;
+}
+.gigCard .textArea{
+    margin-inline: 8px;
+    margin-block: 14px;
+}
+.gigCard .ownerInfo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.gigCard .ownerInfo .text{
+    display: flex;
+    flex-direction: column;
+}
+.gigCard .textArea .description{
+    font-size: 13px;
+}
+.gigCard .ownerInfo .profilePic{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: block;
+}
+.gigCardImage{
+    width: 300px;
+    height: 200px;
+}
+.gigCard img{
+    height: 100%;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+.textArea .pricing{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 14px;
+    border-top: 1px solid lightgrey;
+}
+.textArea .pricing span{
+    font-size: 14px;
+}
+.textArea .starRating{
+    display: flex;
+    align-items: center;
+}

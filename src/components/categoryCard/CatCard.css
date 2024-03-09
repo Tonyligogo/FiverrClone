@@ -1,0 +1,47 @@
+.categoryContainer{
+    padding-block: 40px;
+    padding-inline: 2rem;
+}
+.categoryContainer h2{
+    margin-left: 36px;
+}
+.category{
+    display: flex;
+    align-items: center;
+}
+.cards{
+    white-space: nowrap;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    position: relative;
+    scrollbar-width: none;
+}
+.card{
+    width: 240px;
+    height: 340px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-inline: 8px;
+    overflow: hidden;
+    position: relative;
+}
+.card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.card .title{
+    color: white;
+    position: absolute;
+    top: 40px;
+    left: 15px;
+    font-weight: 600;
+    font-size: larger;
+}
+.card .desc{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 14px;
+    color: white;
+}

@@ -1,0 +1,107 @@
+.singleGig{
+    margin-top: 10px;
+    display: block;
+    max-width: 1000px;
+    margin-inline: auto;
+    padding-inline: 32px;
+}
+.singleGig .ownerInfo .profilePic{
+    width: 60px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    overflow: hidden;
+    display: block;
+}
+.singleGig .ownerInfo .profilePic img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+.singleGig .ownerInfo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.singleGig .review .text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.text span.starRating{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.photoGallery{  
+    position: relative;
+    max-width: 600px;
+    height: 360px;
+    margin-block: 20px 0px;
+}
+.photoGallery span{
+    position: absolute;
+    top: 50%;
+    font-size: 50px;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+    transform: translate(0, -50%);
+}
+.photoGallery .prevBtn{
+    left: 0;
+}
+.photoGallery .nextBtn{
+    right: 0;
+}
+.photoGallery img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.ownerInfo .profilePic.profilePic2{
+    width: 100px;
+    aspect-ratio: 1/1;
+}
+.contactMe{
+    background: none;
+    outline: none;
+    border: none;
+    border: 1px solid black;
+    padding: 8px 18px;
+    border-radius: 4px;
+    margin-block: 20px;
+}
+.aboutTheSeller {
+    border: 1px solid lightgrey;
+    padding: 20px;
+}
+.userStats{
+    display: flex;
+    border-bottom: 1px solid lightgrey;
+}
+.userStats > *{
+    flex: 1;
+}
+.userStats > * div{
+    margin-bottom: 10px;
+}
+.userStats > * div > span{
+    display: block;
+}
+.review{
+    border-bottom: 1px solid lightgrey;
+    padding-block: 40px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+.review p{
+    margin: 0;
+    margin-top: 10px;
+}
+.review .reviewerProfilePic{
+    width: 50px;
+    aspect-ratio: 1/1;
+}

@@ -1,0 +1,137 @@
+.features{
+    background-color: #f1fdf7;
+}
+.featuresContainer{
+    display: flex;
+    align-items: center;
+    padding: 60px 2rem;
+    gap: 80px;
+}
+.featuresContainer .leftSide{
+    flex: 2;
+}
+.featuresContainer .rightSide{
+    flex: 3;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+}
+.featuresContainer .rightSide img{
+    width: 100%;
+}    
+
+.featuresContainer .rightSide video.inActive{
+    display: none;
+}
+.featuresContainer .rightSide video.active{
+    display: block;
+    width: 100%;
+}
+.featuresContainer .leftSide h1{
+    font-weight: 700;
+    font-size: 28px;
+    color: #404145;
+    line-height: 120%;
+}
+.featuresContainer .leftSide h3{
+    display: flex;
+    align-items: center;
+    gap: 4px; 
+    color: #404145;
+}
+.featuresContainer .leftSide p{
+    color:#62646a;
+    line-height: 26px;
+    font-weight: 400;
+}
+.playButton{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.fiverrBusiness{
+    background-color: #0d084d;
+}
+.fiverrBsContainer{
+    display: flex;
+    align-items: center;
+    padding: 60px 2rem;
+}
+.fiverrBsContainer .leftSide{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+.fiverrBsContainer .leftSide h1{
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 32px;
+    color: white;
+    margin: 0;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.fiverrBsContainer .leftSide h1 small{
+    font-size: 10px;
+    background-color: #584aff;
+    border-radius: 10px;
+    padding: 2px 8px;
+}
+.fiverrBsContainer .leftSide .leftSideBody h2{
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 120%;
+    color: white;
+    margin: 0;
+}
+.fiverrBsContainer .leftSide .leftSideBody p{
+    font-size: 18px;
+    color: white;
+    margin: 0;
+    padding-block: 28px;
+}
+.fiverrBsContainer .leftSide .leftSideBody ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 40px;
+}
+.fiverrBsContainer .leftSide .leftSideBody ul h3{
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+}
+.fiverrBsContainer .leftSide .exploreBs{
+    border: none;
+    background-color: none;
+    background-color: #19a463;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+    width: max-content;
+    cursor: pointer;
+}
+.fiverrBsContainer .rightSide{
+    flex: 3;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.fiverrBsContainer .rightSide img{
+    width: 100%;
+} 
